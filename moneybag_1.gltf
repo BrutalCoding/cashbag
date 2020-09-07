@@ -1,0 +1,397 @@
+{
+    "asset" : {
+        "generator" : "Khronos glTF Blender I/O v1.3.48",
+        "version" : "2.0"
+    },
+    "scene" : 0,
+    "scenes" : [
+        {
+            "name" : "Scene",
+            "nodes" : [
+                5,
+                6,
+                7
+            ]
+        }
+    ],
+    "nodes" : [
+        {
+            "mesh" : 0,
+            "name" : "MoneyBag_MoneyBag_0",
+            "scale" : [
+                0.004595490638166666,
+                0.004595490172505379,
+                0.004595490172505379
+            ]
+        },
+        {
+            "children" : [
+                0
+            ],
+            "name" : "MoneyBag",
+            "rotation" : [
+                -0.7071068286895752,
+                0,
+                0,
+                0.7071068286895752
+            ]
+        },
+        {
+            "children" : [
+                1
+            ],
+            "name" : "RootNode"
+        },
+        {
+            "children" : [
+                2
+            ],
+            "name" : "16b4d89165be4325976a2b52edeba969.fbx",
+            "rotation" : [
+                0.7071068286895752,
+                0,
+                0,
+                0.7071068286895752
+            ]
+        },
+        {
+            "children" : [
+                3
+            ],
+            "name" : "RootNode (model correction matrix)"
+        },
+        {
+            "children" : [
+                4
+            ],
+            "name" : "RootNode (gltf orientation matrix)",
+            "rotation" : [
+                -0.7071068286895752,
+                0,
+                0,
+                0.7071068286895752
+            ]
+        },
+        {
+            "mesh" : 1,
+            "name" : "Text",
+            "rotation" : [
+                0.6868679523468018,
+                0,
+                0,
+                0.7267823219299316
+            ],
+            "translation" : [
+                0,
+                0.9410672783851624,
+                0
+            ]
+        },
+        {
+            "mesh" : 2,
+            "name" : "Text.001",
+            "rotation" : [
+                0.6868679523468018,
+                0,
+                0,
+                0.7267823219299316
+            ],
+            "translation" : [
+                0,
+                0.9410672783851624,
+                0
+            ]
+        }
+    ],
+    "materials" : [
+        {
+            "doubleSided" : true,
+            "emissiveFactor" : [
+                0,
+                0,
+                0
+            ],
+            "name" : "MoneyBag.005",
+            "normalTexture" : {
+                "index" : 0,
+                "texCoord" : 0
+            },
+            "pbrMetallicRoughness" : {
+                "baseColorTexture" : {
+                    "index" : 1,
+                    "texCoord" : 0
+                },
+                "metallicRoughnessTexture" : {
+                    "index" : 2,
+                    "texCoord" : 0
+                }
+            }
+        }
+    ],
+    "meshes" : [
+        {
+            "name" : "MoneyBag_MoneyBag_0.005",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 0,
+                        "NORMAL" : 1,
+                        "TEXCOORD_0" : 2,
+                        "TEXCOORD_1" : 3,
+                        "TEXCOORD_2" : 4
+                    },
+                    "indices" : 5,
+                    "material" : 0
+                }
+            ]
+        },
+        {
+            "name" : "Text",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 6,
+                        "NORMAL" : 7,
+                        "TEXCOORD_0" : 8
+                    },
+                    "indices" : 9
+                }
+            ]
+        },
+        {
+            "name" : "Text.001",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 10,
+                        "NORMAL" : 11,
+                        "TEXCOORD_0" : 12
+                    },
+                    "indices" : 13
+                }
+            ]
+        }
+    ],
+    "textures" : [
+        {
+            "source" : 0
+        },
+        {
+            "source" : 1
+        },
+        {
+            "source" : 2
+        }
+    ],
+    "images" : [
+        {
+            "mimeType" : "image/png",
+            "name" : "MoneyBag_normal",
+            "uri" : "MoneyBag_normal.png"
+        },
+        {
+            "mimeType" : "image/png",
+            "name" : "MoneyBag_baseColor",
+            "uri" : "MoneyBag_baseColor.png"
+        },
+        {
+            "mimeType" : "image/png",
+            "name" : "MoneyBag_metallicRoughness",
+            "uri" : "MoneyBag_metallicRoughness.png"
+        }
+    ],
+    "accessors" : [
+        {
+            "bufferView" : 0,
+            "componentType" : 5126,
+            "count" : 591,
+            "max" : [
+                34.94767379760742,
+                30.352569580078125,
+                96.57128143310547
+            ],
+            "min" : [
+                -34.952392578125,
+                -30.027263641357422,
+                -0.4190155863761902
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 1,
+            "componentType" : 5126,
+            "count" : 591,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 2,
+            "componentType" : 5126,
+            "count" : 591,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 3,
+            "componentType" : 5126,
+            "count" : 591,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 4,
+            "componentType" : 5126,
+            "count" : 591,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 5,
+            "componentType" : 5123,
+            "count" : 2892,
+            "type" : "SCALAR"
+        },
+        {
+            "bufferView" : 6,
+            "componentType" : 5126,
+            "count" : 5363,
+            "max" : [
+                0.5320584774017334,
+                0.015000014565885067,
+                0.0064493766985833645
+            ],
+            "min" : [
+                -0.5253201127052307,
+                -0.015000014565885067,
+                -0.11556914448738098
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 7,
+            "componentType" : 5126,
+            "count" : 5363,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 8,
+            "componentType" : 5126,
+            "count" : 5363,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 9,
+            "componentType" : 5123,
+            "count" : 23088,
+            "type" : "SCALAR"
+        },
+        {
+            "bufferView" : 10,
+            "componentType" : 5126,
+            "count" : 16039,
+            "max" : [
+                0.36169004440307617,
+                0.01000002957880497,
+                0.1722000241279602
+            ],
+            "min" : [
+                -0.3698100447654724,
+                -0.01000002957880497,
+                0.04325997829437256
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 11,
+            "componentType" : 5126,
+            "count" : 16039,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 12,
+            "componentType" : 5126,
+            "count" : 16039,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 13,
+            "componentType" : 5123,
+            "count" : 69804,
+            "type" : "SCALAR"
+        }
+    ],
+    "bufferViews" : [
+        {
+            "buffer" : 0,
+            "byteLength" : 7092,
+            "byteOffset" : 0
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 7092,
+            "byteOffset" : 7092
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 4728,
+            "byteOffset" : 14184
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 4728,
+            "byteOffset" : 18912
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 4728,
+            "byteOffset" : 23640
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 5784,
+            "byteOffset" : 28368
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 64356,
+            "byteOffset" : 34152
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 64356,
+            "byteOffset" : 98508
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 42904,
+            "byteOffset" : 162864
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 46176,
+            "byteOffset" : 205768
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 192468,
+            "byteOffset" : 251944
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 192468,
+            "byteOffset" : 444412
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 128312,
+            "byteOffset" : 636880
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 139608,
+            "byteOffset" : 765192
+        }
+    ],
+    "buffers" : [
+        {
+            "byteLength" : 904800,
+            "uri" : "moneybag_1.bin"
+        }
+    ]
+}
