@@ -4,8 +4,8 @@
   <contributor>
    <authoring_tool>SceneKit Collada Exporter v1.0</authoring_tool>
   </contributor>
-  <created>2020-11-25T04:29:22Z</created>
-  <modified>2020-11-25T04:29:22Z</modified>
+  <created>2020-11-25T05:48:34Z</created>
+  <modified>2020-11-25T05:48:34Z</modified>
   <unit meter="1.000000"/>
   <up_axis>Y_UP</up_axis>
  </asset>
@@ -57,6 +57,9 @@
     </newparam>
     <technique sid="common">
      <lambert>
+      <ambient>
+       <color>0.484529 0.484529 0.484529 1</color>
+      </ambient>
       <diffuse>
        <texture texture="ID2_Santa_bag_Diffuse" texcoord="CHANNEL2"/>
       </diffuse>
@@ -82,7 +85,7 @@
      <ambient_diffuse_lock>0</ambient_diffuse_lock>
      <intensities>
       <diffuse>
-       <float>3</float>
+       <float>5</float>
       </diffuse>
      </intensities>
     </technique>
